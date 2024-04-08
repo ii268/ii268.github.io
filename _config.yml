@@ -1,6 +1,6 @@
-theme: jekyll-theme-cayman
-title: ibuibu268 projects
-description: ibui2628のプロジェクト!
+theme: jekyll-theme-slate
+title: ibuibu268
+description: ibuibu268 website (Github Pages)
 
 plugins:
   - jekyll-sitemap
