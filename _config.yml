@@ -1,12 +1,6 @@
-theme: jekyll-theme-slate
-title: ibuibu268
-description: ibuibu268 website (Github Pages)
+theme: jekyll-theme-cayman
+title: ibuibu268 projects
+description: ibui2628のプロジェクト一部の一覧!
 
 plugins:
   - jekyll-sitemap
-
-defaults:
-  - scope:
-      path: 'google2dc8aead0c768bf1.html'
-    values:
-      sitemap: false

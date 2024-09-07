@@ -1,3 +1,3 @@
-# ibuibu268.github.io
+# ii268.github.io
 
-[ページを開く](https://ibuibu268.github.io/)
+[ページを開く](https://ii268.github.io/)
