@@ -4,3 +4,9 @@ description: ibui2628のプロジェクト一部の一覧!
 
 plugins:
   - jekyll-sitemap
+
+defaults:
+  - scope:
+      path: 'google2dc8aead0c768bf1.html'
+    values:
+      sitemap: false
