@@ -1,2 +1,3 @@
 User-agent: *
+Allow: /
 sitemap: https://ii268.github.io/sitemap-index.xml
