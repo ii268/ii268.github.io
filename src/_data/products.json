@@ -1,0 +1,103 @@
+{
+    "apps_list": [
+        {
+            "name": "GPS-Meter-V2",
+            "description": "GPS機能を使用して現在の速度・高度などの情報を確認できるWEBアプリです。スマホのGPSをONにして使用ください(PCでは取得できない情報がある可能性があります。)",
+            "image": "https://raw.githubusercontent.com/ii268/GPS-Meter-V2/refs/heads/main/icons/logo.svg",
+            "links": [
+                {
+                    "title": "GPS-Meter-V2",
+                    "url": "https://ii268.github.io/GPS-Meter-V2/",
+                    "blank": false
+                },
+                {
+                    "title": "ソースコード",
+                    "url": "https://github.com/ibuibu268/GPS-Meter-V2/",
+                    "blank": true
+                }
+            ]
+        },
+        {
+            "name": "お手軽発車メロディ(仮名)",
+            "description": "簡易 発車メロディーシミュレーター ※音声ファイルは別途用意する必要があります",
+            "image": false,
+            "links": [
+                {
+                    "title": "WEB Mero V2",
+                    "url": "https://ii268.github.io/WEB-Mero/",
+                    "blank": false
+                },
+                {
+                    "title": "使い方ガイド",
+                    "url": "https://github.com/ii268/WEB-Mero/blob/main/README.md",
+                    "blank": true
+                }
+            ]
+        },
+        {
+            "name": "forbidden-word",
+            "description": "指定した禁止ワードを含むWEBサイトをブロックできるブラウザ拡張機能",
+            "image": false,
+            "links": [
+                {
+                    "title": "forbidden-wordをダウンロード",
+                    "url": "https://github.com/ii268/forbidden-word/releases",
+                    "blank": true
+                },
+                {
+                    "title": "ソースコード",
+                    "url": "https://github.com/ii268/forbidden-word",
+                    "blank": true
+                }
+            ]
+        },
+        {
+            "name": "QR生成",
+            "description": "QRコードを作ることができます。 色や大きさなど自由に調整することができます。<br>リニューアル予定あり",
+            "image": false,
+            "links": [
+                {
+                    "title": "QR生成へ",
+                    "url": "https://ibuibu268.netlify.app/apps/qr/",
+                    "blank": false
+                }
+            ]
+        },
+        {
+            "name": "imgurl変換",
+            "description": "imgurl変換はGoogleDriveにアップロードした画像をhtmlのimgタグなどではめ込めるリンクを作成するツールです。",
+            "image": false,
+            "links": [
+                {
+                    "title": "imgurl変換",
+                    "url": "https://ii268.github.io/gdrive-img-hennkann/",
+                    "blank": false
+                }
+            ]
+        },
+        {
+            "name": "ダウンロードURL変換",
+            "description": "ダウンロードURL変換はGoogleDriveにアップロードしたコンテンツをアクセス瞬間にダウロードするURLを生成するツールです。",
+            "image": false,
+            "links": [
+                {
+                    "title": "ダウンロードURL変換",
+                    "url": "https://ii268.github.io/gdrive-img-hennkann/dl_link.htm",
+                    "blank": false
+                }
+            ]
+        },
+        {
+            "name": "Textarea",
+            "description": "ただのテキストボックスです アプリと言って良いのかわからないほどシンプルです。(もしかしたらいつか機能が追加されるかもしれません)",
+            "image": false,
+            "links": [
+                {
+                    "title": "Textarea",
+                    "url": "https://ii268.github.io/ibui2628-WEB-app/text/",
+                    "blank": false
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "ibu_app_list",
+  "version": "1.0.0",
+  "description": "[ページを開く](https://ii268.github.io/)",
+  "main": "index.js",
+  "scripts": {
+    "build": "eleventy",
+    "server": "eleventy --serve",
+    "reset": "rd /s docs"
+  },
+  "author": "ibuibu268",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@11ty/eleventy": "^3.1.1"
+  },
+  "directories": {
+    "doc": "docs"
+  }
+}

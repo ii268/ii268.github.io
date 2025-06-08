@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="{{ eleventy.generator }}">
+    <link rel="icon" href="/favicon.ico">
+    <link rel="stylesheet" href="{{ config.style }}">
+    <title>{{ title }}</title>
+</head>
+
+<body>
+    <main>
+        <h1>{{ title }}</h1>
+        {{ content }}
+        {%- for product in products.apps_list %}
+        <div class="card">
+            {%if product.image != false %}
+            <div class="product_img">
+                <img src="{{ product.image }}" alt="{{ product.name }}">
+            </div>
+            {% endif %}
+            <div class="info">
+                <h2>{{ product.name }}</h2>
+                <p>{{ product.description }}</p>
+                {%- for link in product.links %}
+                <a href="{{ link.url }}" {% if link.blank %}target="_blank" rel="noopener" {% endif %} class="start_button">{{ link.title }}</a>
+                {%- endfor %}
+            </div>
+        </div>
+        {%- endfor %}
+    </main>
+</body>
+
+</html>
