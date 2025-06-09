@@ -1,0 +1,88 @@
+:root {
+    --text-clor: #222;
+    --back-clor: #bff;
+    --btn-clor: #36b;
+    --shadow-clor: #888;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --text-clor: #ddd;
+        --back-clor: #333;
+        --shadow-clor: #000;
+    }
+}
+
+body {
+    color: var(--text-clor);
+    background: var(--back-clor);
+}
+
+h1 {
+    text-align: center;
+}
+
+a{
+    color: var(--text-clor);
+}
+
+main {
+    width: 90%;
+    margin: auto;
+    line-height: 2em
+}
+
+.card:not(:first-child) {
+    margin-top: 20px;
+    border-top: solid 1px #766;
+}
+
+.card {
+    display: flex;
+    padding: 10px;
+}
+
+.product_img {
+    display: flex;
+    justify-content: center;
+    margin-right: 20px;
+    max-width: 50%;
+}
+
+.product_img img{
+    max-width: 100%;
+}
+
+.info {
+    flex-grow: 100;
+}
+
+.start_button {
+    text-align: center;
+    display: block;
+    background: var(--btn-clor);
+    padding: 10px;
+    border-radius: 20px;
+    color: #ddd;
+    margin-top: auto;
+    box-shadow: 0 0 10px 2px var(--shadow-clor);
+}
+
+.start_button:not(:first-child){
+    margin-top: 20px;
+}
+
+@media screen and (max-width:480px) {
+    .card {
+        display: block;
+    }
+
+    .product_img {
+        max-width: 100%;
+        margin-right: 0;
+    }
+
+    main {
+        width: 100%;
+    }
+}
