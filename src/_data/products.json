@@ -2,7 +2,7 @@
     "apps_list": [
         {
             "name": "GPS-Meter-V2",
-            "description": "GPS機能を使用して現在の速度・高度などの情報を確認できるWEBアプリです。スマホのGPSをONにして使用ください(PCでは取得できない情報がある可能性があります。)",
+            "description": "GPS機能を使用して現在の速度・高度などの情報を確認できるWEBアプリです。スマホのGPSをONにして使用ください(PCやGPSを搭載していない端末では取得できない情報がある可能性があります。)",
             "image": "https://raw.githubusercontent.com/ii268/GPS-Meter-V2/refs/heads/main/icons/logo.svg",
             "links": [
                 {
@@ -18,12 +18,12 @@
             ]
         },
         {
-            "name": "お手軽発車メロディ(仮名)",
-            "description": "簡易 発車メロディーシミュレーター ※音声ファイルは別途用意する必要があります",
-            "image": false,
+            "name": "お手軽発車ベル(仮名)",
+            "description": "鉄道駅の発車メロディ・発車ベルを再現できるアプリです。 ※音声ファイルは別途用意する必要があります",
+            "image": "/imgs/mero.webp",
             "links": [
                 {
-                    "title": "WEB Mero V2",
+                    "title": "お手軽発車ベル",
                     "url": "https://ii268.github.io/WEB-Mero/",
                     "blank": false
                 },
