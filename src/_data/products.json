@@ -98,6 +98,18 @@
                     "blank": false
                 }
             ]
+        },
+        {
+            "name": "時報時計",
+            "description": "時報機能が付いた時計 ※スマホでは動作しない場合があります",
+            "image": false,
+            "links": [
+                {
+                    "title": "時報時計",
+                    "url": "https://ibuibu268.netlify.app/apps/others/clock_signal/",
+                    "blank": true
+                }
+            ]
         }
     ]
 }
