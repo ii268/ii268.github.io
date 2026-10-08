@@ -1,4 +1,4 @@
-module.exports = function(eleventyConfig) {
+export default function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("src/assets");
     eleventyConfig.addPassthroughCopy({"src/rootfiles/" :"/"});
 
@@ -7,9 +7,9 @@ module.exports = function(eleventyConfig) {
     });
 }
 
-module.exports.config = {
+export const config = {
     dir: {
         input: "src",
-        output: "docs"
+        output: "_site/"
     }
 }
