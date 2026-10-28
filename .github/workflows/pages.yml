@@ -23,7 +23,6 @@ jobs:
           path: _site/
 
       - run: ls
-      - run: ls ~/
 
   deploy:
     environment:

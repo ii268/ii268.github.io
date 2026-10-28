@@ -1,6 +1,18 @@
 {
     "apps_list": [
         {
+            "name": "Pixel train 2D",
+            "description": "シンプルに電車を動かすゲームです",
+            "image": "/imgs/train.webp",
+            "links": [
+                {
+                    "title": "Pixel train 2D",
+                    "url": "https://ibuibu268.netlify.app/apps/pixel_train/",
+                    "blank": true
+                }
+            ]
+        },
+        {
             "name": "GPS-Meter-V2",
             "description": "GPS機能を使用して現在の速度・高度などの情報を確認できるWEBアプリです。スマホのGPSをONにして使用ください(PCやGPSを搭載していない端末では取得できない情報がある可能性があります。)",
             "image": "https://raw.githubusercontent.com/ii268/GPS-Meter-V2/refs/heads/main/icons/logo.svg",
